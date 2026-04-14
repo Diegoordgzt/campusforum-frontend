@@ -4,7 +4,7 @@ import { SHARED_IMPORTS } from '../../../shared/shared_imports';
 import { Navbar } from '../../../partials/navbar/navbar';
 import { LeftSidebar } from '../../../partials/left-sidebar/left-sidebar';
 import { Footer } from '../../../partials/footer/footer';
-import { CategoriasService } from '../../../services/categorias-service';
+import { CategoriasService, CategoriaForm, CategoriaErrors } from '../../../services/categorias-service'; 
 
 type UserRole = 'ESTUDIANTE' | 'PROFESOR' | 'ADMINISTRADOR';
 
